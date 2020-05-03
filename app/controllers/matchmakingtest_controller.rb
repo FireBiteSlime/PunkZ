@@ -1,0 +1,2 @@
+class MatchmakingtestController < ApplicationController
+end
