@@ -14504,3 +14504,98 @@ Processing by MainController#index as HTML
 Completed 200 OK in 5ms (Views: 3.9ms | ActiveRecord: 0.0ms | Allocations: 3621)
 
 
+Started GET "/" for ::1 at 2020-05-05 00:42:04 +0300
+  [1m[35m (3.5ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 1.3ms | Allocations: 294)
+Completed 200 OK in 247ms (Views: 235.1ms | ActiveRecord: 0.0ms | Allocations: 33693)
+
+
+Started GET "/useraccount" for ::1 at 2020-05-05 00:42:07 +0300
+Processing by UserController#useraccount as HTML
+  Rendering user/useraccount.html.erb within layouts/application
+  Rendered user/useraccount.html.erb within layouts/application (Duration: 12.4ms | Allocations: 2438)
+Completed 200 OK in 27ms (Views: 24.3ms | ActiveRecord: 0.0ms | Allocations: 6156)
+
+
+Started GET "/main" for ::1 at 2020-05-05 00:42:10 +0300
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 5)
+Completed 200 OK in 14ms (Views: 12.9ms | ActiveRecord: 0.0ms | Allocations: 3572)
+
+
+Started GET "/theoryindex" for ::1 at 2020-05-05 00:42:12 +0300
+Processing by TheoryController#theoryindex as HTML
+  Rendering theory/theoryindex.html.erb within layouts/application
+  Rendered theory/theoryindex.html.erb within layouts/application (Duration: 11.1ms | Allocations: 2434)
+Completed 200 OK in 61ms (Views: 58.9ms | ActiveRecord: 0.0ms | Allocations: 6383)
+
+
+Started GET "/main" for ::1 at 2020-05-05 00:42:14 +0300
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 4)
+Completed 200 OK in 12ms (Views: 11.4ms | ActiveRecord: 0.0ms | Allocations: 3570)
+
+
+Started GET "/" for ::1 at 2020-05-05 00:43:20 +0300
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 4)
+Completed 200 OK in 14ms (Views: 13.3ms | ActiveRecord: 0.0ms | Allocations: 3562)
+
+
+Started GET "/useraccount" for ::1 at 2020-05-05 00:43:48 +0300
+  [1m[35m (1.6ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by UserController#useraccount as HTML
+  Rendering user/useraccount.html.erb within layouts/application
+  Rendered user/useraccount.html.erb within layouts/application (Duration: 45.5ms | Allocations: 8683)
+Completed 200 OK in 84ms (Views: 67.2ms | ActiveRecord: 0.0ms | Allocations: 13815)
+
+
+Started GET "/useraccount" for ::1 at 2020-05-05 00:44:21 +0300
+Processing by UserController#useraccount as HTML
+  Rendering user/useraccount.html.erb within layouts/application
+  Rendered user/useraccount.html.erb within layouts/application (Duration: 5.6ms | Allocations: 2058)
+Completed 200 OK in 14ms (Views: 12.6ms | ActiveRecord: 0.0ms | Allocations: 5183)
+
+
+Started GET "/main" for ::1 at 2020-05-05 00:44:23 +0300
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 1.3ms | Allocations: 177)
+Completed 200 OK in 16ms (Views: 13.7ms | ActiveRecord: 0.0ms | Allocations: 4326)
+
+
+Started GET "/matchmakingtest" for ::1 at 2020-05-05 00:44:27 +0300
+Processing by MatchmakingtestController#test as HTML
+  Rendering matchmakingtest/test.html.erb within layouts/application
+  Rendered matchmakingtest/test.html.erb within layouts/application (Duration: 13.1ms | Allocations: 2544)
+Completed 200 OK in 29ms (Views: 26.3ms | ActiveRecord: 0.0ms | Allocations: 6489)
+
+
+Started GET "/main" for ::1 at 2020-05-05 00:44:29 +0300
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 5)
+Completed 200 OK in 7ms (Views: 5.6ms | ActiveRecord: 0.0ms | Allocations: 3567)
+
+
+Started GET "/singlemode" for ::1 at 2020-05-05 00:44:42 +0300
+Processing by SinglemodeController#single as HTML
+  Rendering singlemode/single.html.erb within layouts/application
+  Rendered singlemode/single.html.erb within layouts/application (Duration: 15.3ms | Allocations: 2306)
+Completed 200 OK in 29ms (Views: 27.4ms | ActiveRecord: 0.0ms | Allocations: 6246)
+
+
+Started GET "/main" for ::1 at 2020-05-05 00:44:44 +0300
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 4)
+Completed 200 OK in 15ms (Views: 12.9ms | ActiveRecord: 0.0ms | Allocations: 3563)
+
+

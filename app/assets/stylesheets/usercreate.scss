@@ -1,0 +1,139 @@
+#bodymm{
+    position: absolute;
+margin: auto;
+}
+
+.but{
+    position: absolute;
+    left: 2%;
+    top:85%;
+}
+
+
+.container1{
+	border-radius: 0.5em;
+	display: block;
+	max-width: 1000px;
+  max-height: 1000px;
+	overflow: hidden;
+	-webkit-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+	padding: 2em;
+	position: absolute;
+		top: 50%;
+		left: 50%;
+		z-index: 1;
+	width: 98%;
+  height:90%;
+}
+
+h3{
+
+	font-size: 3em;
+	margin: right;
+	text-align: auto;
+  padding: 4px;
+	font-family: 'Arial';
+  color: #3D689C;
+}
+
+a{
+
+  font-size: 2em;
+  margin: right;
+  text-align: auto;
+  padding: 4px;
+  font-family: 'Arial';
+  color: #3D689C;
+}
+
+p{
+
+  font-size: 1em;
+  margin: right;
+  text-align: auto;
+  padding: 4px;
+  font-family: 'Arial';
+  color: #3D689C;
+}
+
+.time{
+  background-color: transparent;
+  border:0;
+  font-size: 1em;
+  margin: right;
+  text-align: auto;
+  padding: 4px;
+  font-family: 'Arial';
+  color: #3D689C;
+}
+
+.timePoint{
+  background-color: transparent;
+  border:0;
+
+}
+
+
+button.submit{
+	background: rgba(255,255,255,0.25);
+	border: 1px solid #3D689C;
+	line-height: 1em;
+	padding: 0.5em 0.5em;
+	-webkit-transition: all 0.25s;
+	transition: all 0.25s;
+  margin-left: 1%;
+}
+
+button:hover,
+button:focus,
+button:active,
+button.loading{
+	background: #3D689C;
+	color: #fff;
+  fill: #fff;
+	outline: none;
+}
+button.success{
+	background: #27ae60;
+	border-color: #27ae60;
+	color: #fff;
+  fill: #fff;
+}
+
+.otvet{
+  right:50%;
+  top:50%;
+}
+label input{
+	background: none;
+  outline: none;
+  border: 0;
+  border-bottom: 1px solid #3D689C;
+	line-height: 1em;
+	font-weight: 300;
+	padding: 0.125em 0.25em;
+	width: 50%;
+  color: #3D689C;
+}
+label input:focus{
+	outline: none;
+}
+
+
+label span.label-text{
+	display: block;
+	font-size: 0.5em;
+	font-weight: bold;
+	padding-left: 0.5em;
+	text-transform: uppercase;
+	-webkit-transition: all 0.25s;
+  color: #3D689C;
+	transition: all 0.25s;
+}
+
+label.col-one-half:nth-of-type(even){
+	border-left: 1px solid #3D689C;
+	padding-left: 0.25em;
+}

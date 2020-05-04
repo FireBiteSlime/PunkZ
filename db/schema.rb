@@ -10,19 +10,27 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2020_05_04_161351) do
+ActiveRecord::Schema.define(version: 2020_05_04_172327) do
 
-  create_table "competitive", id: false, force: :cascade do |t|
-    t.text "sumtime"
+  create_table "competitives", force: :cascade do |t|
+    t.string "sumtime"
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
   end
 
-  create_table "task", force: :cascade do |t|
-    t.text "task"
-    t.text "answer"
+  create_table "sections", force: :cascade do |t|
+    t.string "name"
+    t.string "theory"
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
   end
 
-# Could not dump table "user" because of following StandardError
-#   Unknown type 'INREGER' for column 'score'
+  create_table "tasks", force: :cascade do |t|
+    t.string "tasktest"
+    t.string "answer"
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+  end
 
   create_table "users", force: :cascade do |t|
     t.string "name"
