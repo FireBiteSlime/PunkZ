@@ -3,7 +3,7 @@
 // You can use Sass (SCSS) here: https://sass-lang.com/
 #bodylch{
     position: absolute;
-    left: -20%;
+    left: 2%;
     top:85%;
 }
 
@@ -46,16 +46,22 @@ a.blubtn:active {
   background-color: #FFF;
 }
 
+.photo{
+  height: 74%;
+  width: 26%;
 
+}
+
+.table{
+  box-sizing: border-box;
+}
 
 *{
-  width: 50%;
-  height: 50%;
-	box-sizing: border-box;
-	font-size: 1em;
 
+  box-sizing: border-box;
+	font-size: 1em;
 	margin: 0;
-	padding: 0;
+	padding-top: 4px;
 
 }
 
@@ -83,9 +89,7 @@ margin: auto;
 .container1:before{
 
 	background-size: cover;
-	content: '';
-	-webkit-filter: blur(10px);
-	filter: blur(10px);
+
 	height: 100vh;
 	position: absolute;
 		top: 50%;
@@ -262,17 +266,37 @@ form label.password button.toggle-visibility:active{
 form label.password button.toggle-visibility span{vertical-align: middle;}
 
 h1{
+
 	font-size: 5em;
-	margin: 0 0 1em 0;
-	text-align: right;
+	margin: right;
+	text-align: auto;
+  padding: 4px;
 	font-family: 'Arial';
+  color: #3D689C;
+}
+h3{
+
+	font-size: 3em;
+	margin: right;
+	text-align: auto;
+  padding: 4px;
+	font-family: 'Arial';
+  color: #3D689C;
+}
+
+a{
+
+  font-size: 2em;
+  margin: right;
+  text-align: auto;
+  padding: 4px;
+  font-family: 'Arial';
   color: #3D689C;
 }
 
 html{
 	font-size: 18px;
 	height: 100%;
-  color: #3D689C;
 }
 
 .text-center{
