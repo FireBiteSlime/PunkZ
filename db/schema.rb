@@ -10,16 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 0) do
-  create_table "user", id: false, force: :cascade do |t|
-        t.text "username"
-        t.text "surname"
-        t.text "patrinymic"
-        t.text "nikname"
-        t.INTEGER "score"
-        t.INTEGER "gamesPlayed"
-        t.INTEGER "isteacher"
-  end
+ActiveRecord::Schema.define(version: 2020_05_04_161351) do
 
   create_table "competitive", id: false, force: :cascade do |t|
     t.text "sumtime"
@@ -33,9 +24,17 @@ ActiveRecord::Schema.define(version: 0) do
 # Could not dump table "user" because of following StandardError
 #   Unknown type 'INREGER' for column 'score'
 
-
-  # These are extensions that must be enabled in order to support this database
- # enable_extension "plpgsql"
-
+  create_table "users", force: :cascade do |t|
+    t.string "name"
+    t.string "surname"
+    t.string "patronymi"
+    t.string "nickname"
+    t.integer "score"
+    t.integer "gamesPlayed"
+    t.integer "winningGames"
+    t.integer "isteacher"
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+  end
 
 end
