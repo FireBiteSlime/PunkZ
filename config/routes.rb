@@ -6,5 +6,7 @@ Rails.application.routes.draw do
 
   get 'useraccount' => 'user#useraccount'
 
-  resources :main
+  get 'singlemode' => 'singlemode#single'
+
+  resources :main 
 end

@@ -1,12 +1,102 @@
+
 <!DOCTYPE html>
-<html>
+<html >
   <head>
-    <title><h3> Главная страница </h3></title>
-
+    <meta charset="utf-8">
+    <title></title>
   </head>
-  <body>
-    <canvas id="stars"></canvas>
+  <body >
+    <div id="body1">
+      <h3> Главная страница </h3>
+      <%= link_to "Single mode", singlemode_path%>
 
+      <%= link_to "Matchmaking", matchmakingtest_path%>
+<%= link_to "lol", useraccount_path%>
+
+
+
+    </div>
+
+    <nav class="menu">
+    <input checked="checked" class="menu-toggler" type="checkbox">
+    <label for="menu-toggler"></label>
+    <ul>
+
+    <li class="menu-item">
+        <a class ="far fa-gem" href="#"></a>
+    </li>
+
+    <li class="menu-item">
+    <a class="fas fa-cookie-bite" href="#"><svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="55px" height="64px" viewBox="-3 -12 70 64" enable-background="new 0 0 64 64" xml:space="preserve">
+<g>
+	<path d="M0,4.863v50.017l32,4.129l32-4.129V4.863L32,8.992L0,4.863z M2,7.137l29,3.742v45.983L2,53.121V7.137z M62,53.121
+		l-29,3.742V10.879l9-1.162v18.9l5-2.5l5,2.5V8.428l10-1.291V53.121z M44,9.46l6-0.774v16.696l-3-1.5l-3,1.5V9.46z"/>
+	<rect x="6.948" y="16" transform="matrix(0.9945 0.1047 -0.1047 0.9945 1.8703 -1.6339)" width="19.105" height="2"/>
+	<rect x="6.948" y="26" transform="matrix(-0.9945 -0.1047 0.1047 -0.9945 30.0829 55.5789)" width="19.105" height="2"/>
+	<rect x="6.948" y="36" transform="matrix(-0.9945 -0.1047 0.1047 -0.9945 29.036 75.524)" width="19.105" height="2"/>
+	<rect x="6.948" y="46" transform="matrix(-0.9945 -0.1047 0.1047 -0.9945 27.9892 95.4691)" width="19.105" height="2"/>
+	<rect x="46.5" y="27.448" transform="matrix(-0.1045 -0.9945 0.9945 -0.1045 15.6654 88.1058)" width="2" height="19.105"/>
+	<rect x="46.5" y="37.448" transform="matrix(-0.1045 -0.9945 0.9945 -0.1045 5.7201 99.1507)" width="2" height="19.105"/>
+</g>
+</svg></a>
+    </li>
+
+    <li class="menu-item">
+      <a class="fas fa-cookie-bite" ><svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="64px" height="64px" viewBox="0 0 64 64" enable-background="new 0 0 64 64" xml:space="preserve">
+
+<g>
+	<path d="M50,26H33v-4h14v-9H37v-2h-2v4h10v5H31v6H14C6.28,26,0,32.28,0,40s6.28,14,14,14c4.601,0,8.851-2.232,11.478-6h13.045
+		c2.627,3.768,6.877,6,11.478,6c7.72,0,14-6.28,14-14S57.72,26,50,26z M50,52c-4.101,0-7.877-2.071-10.102-5.54L39.604,46H24.396
+		l-0.295,0.46C21.877,49.929,18.101,52,14,52C7.383,52,2,46.617,2,40s5.383-12,12-12h36c6.617,0,12,5.383,12,12S56.617,52,50,52z"/>
+	<polygon points="15,32 13,32 13,39 6,39 6,41 13,41 13,48 15,48 15,41 22,41 22,39 15,39 	"/>
+	<path d="M50,31.99c-4.411,0-8,3.589-8,8s3.589,8,8,8s8-3.589,8-8S54.411,31.99,50,31.99z M55.911,39H51v-4.919
+		C53.511,34.504,55.491,36.488,55.911,39z M49,34.081V39h-4.911C44.509,36.488,46.489,34.504,49,34.081z M44.092,41H49v4.9
+		C46.496,45.477,44.519,43.502,44.092,41z M51,45.9V41h4.908C55.481,43.502,53.504,45.477,51,45.9z"/>
+</g>
+</svg></a>
+    </li>
+
+    <li class="menu-item">
+      <a class="fas fa-cookie-bite" ><svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="55px" height="70px" viewBox="-3 -6 70 64" enable-background="new 0 0 64 64" xml:space="preserve">
+<g>
+	<path d="M0,64h64.414L0-0.414V64z M2,55h6v-2H2v-6h4v-2H2v-6h6v-2H2v-6h4v-2H2v-6h6v-2H2V4.414L59.586,62H2V55z"/>
+	<path d="M13,27.586V55h27.414L13,27.586z M15,32.414L35.586,53H15V32.414z"/>
+	<path d="M64.375,46.375l-2.472-9.886L25-0.414L17.586,7l36.903,36.903L64.375,46.375z M61.625,43.625l-6.114-1.528L26.414,13
+		L31,8.414l29.097,29.097L61.625,43.625z M25,2.414L29.586,7L25,11.586L20.414,7L25,2.414z"/>
+</g>
+</svg></a>
+
+    </li>
+    <li class="menu-item">
+      <a class ="far fa-gem" href="#"><svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+  	 width="60px" height="70px" viewBox="-5 -5 75 64" enable-background="new 0 0 64 64" xml:space="preserve">
+  <g>
+  	<path d="M53.861,0H10.139l-6,40H4v24h56V40h-0.139L53.861,0z M11.861,2h40.277l5.7,38H6.161L11.861,2z M58,62H6V42h52V62z"/>
+  	<path d="M48,56c2.206,0,4-1.794,4-4s-1.794-4-4-4s-4,1.794-4,4S45.794,56,48,56z M48,50c1.103,0,2,0.897,2,2s-0.897,2-2,2
+  		s-2-0.897-2-2S46.897,50,48,50z"/>
+  	<polygon points="31.291,11 23.291,19.146 24.706,20.634 31,14.414 31,32 33,32 33,14.414 39.292,20.707 40.705,19.146 32.705,11
+  		"/>
+  </g>
+  </svg></a>
+
+    </li>
+    <li class="menu-item">
+    <a class="fas fa-glass-cheers" href="#"><svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="55px" height="65px" viewBox="-3 -10 72 64" enable-background="new 0 0 64 64" xml:space="preserve">
+<g>
+	<path d="M60,40h-0.139l-6-40H10.139l-6,40H4v24h56V40z M11.861,2h40.277l5.7,38H42v1c0,5.514-4.486,10-10,10s-10-4.486-10-10v-1
+		H6.161L11.861,2z M58,62H6V42h14.041C20.551,48.15,25.72,53,32,53s11.449-4.85,11.959-11H58V62z"/>
+	<rect x="12" y="30" width="40" height="2"/>
+	<rect x="14" y="20" width="36" height="2"/>
+	<rect x="16" y="10" width="32" height="2"/>
+</g>
+</svg></a>
+    </li>
+    </ul>
+    </nav>
 
 
   </body>

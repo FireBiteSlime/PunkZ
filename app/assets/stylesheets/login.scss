@@ -1,62 +1,10 @@
-// Place all the styles related to the User controller here.
-// They will automatically be included in application.css.
-// You can use Sass (SCSS) here: https://sass-lang.com/
-#bodylch{
-    position: absolute;
-    left: -20%;
-    top:85%;
-}
-
-a.blubtn {
-  width:100px;
-  height:100px;
-
-  text-align:center;
-  display:block;
-  font-family: arial;
-  text-decoration: none;
-  font-weight: 300;
-  font-size: 14px;
-  border: #FFF 1px solid;
-  color: #FFF;
-padding-top: 3%;
-
-
-   margin: auto;
-  transition: .5s;
-  background-color: #FFF;
-opacity: 0.3;
-  border-radius: 90px;
-
-
-}
-a.blubtn:hover {
-  top: 5px;
-  transition: .5s;
-  background-color: #FFF;
-  color: #FFF;
-  border: #FFF 1px solid;
-border-radius: 90px;
-opacity: 1;
-}
-a.blubtn:active {
-  color: #FFF;
-  border: #FFF 1px solid;
-  transition: .07s;
-  background-color: #FFF;
-}
-
-
 
 *{
-  width: 50%;
-  height: 50%;
 	box-sizing: border-box;
 	font-size: 1em;
-
 	margin: 0;
 	padding: 0;
-
+  color: #3D689C;
 }
 
 #body{
@@ -65,9 +13,9 @@ margin: auto;
 }
 .container1{
 	border-radius: 0.5em;
+	box-shadow: 0 0 1em 0 rgba(51,51,51,0.25);
 	display: block;
-	max-width: 1000px;
-  max-height: 1000px;
+	max-width: 480px;
 	overflow: hidden;
 	-webkit-transform: translate(-50%, -50%);
 	-ms-transform: translate(-50%, -50%);
@@ -78,7 +26,6 @@ margin: auto;
 		left: 50%;
 		z-index: 1;
 	width: 98%;
-  height:90%;
 }
 .container1:before{
 
@@ -140,14 +87,6 @@ form button.success{
 	color: #fff;
   fill: #fff;
 }
-
-
-
-
-
-
-
-
 
 
 
@@ -262,13 +201,19 @@ form label.password button.toggle-visibility:active{
 form label.password button.toggle-visibility span{vertical-align: middle;}
 
 h1{
-	font-size: 5em;
+	font-size: 2em;
 	margin: 0 0 1em 0;
-	text-align: right;
+	text-align: center;
 	font-family: 'Arial';
   color: #3D689C;
 }
-
+h1 img{
+  color: #3D689C;
+	height: auto;
+	margin: 0 auto;
+	max-width: 240px;
+	width: 100%;
+}
 html{
 	font-size: 18px;
 	height: 100%;
