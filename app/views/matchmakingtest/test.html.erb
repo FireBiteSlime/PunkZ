@@ -1,1 +1,39 @@
-<h1>Окно соревнования</h1>
+<<!DOCTYPE html>
+<html>
+  <head>
+    <meta>
+    <title></title>
+  </head>
+  <body>
+    <div id="bodymm">
+
+      <%= javascript_include_tag "matchmakingtest" %>
+      <%= stylesheet_link_tag "matchmakingtest", media: 'all' %>
+    </div>
+
+<div class="container1">
+<div class="stopwatch">
+  <form name="clockform">
+   <p>Время:
+   <input class="time" name="clock" size="12" maxlength="12" value="00:00:00.00">
+   <input class="timePoint" name="label" value="">
+   <input name="starter" type="button" value="Старт/Стоп" onclick="findTIME()">
+   
+   <input name="clearer" type="button" value="Сбросить всё" onclick="clearALL()">
+   </p><p id="marker">
+   </p>
+  </form>
+</div>
+</div>
+
+<div class="but">
+<a href="#" class="blubtn"><svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+width="64px" height="64px" viewBox="0 0 64 64" enable-background="new 0 0 64 64" xml:space="preserve">
+<g>
+<path d="M-0.414,34H10v30h14V48h14v16h14V34h12.414L32,1.586L-0.414,34z M50,32v30H40V46H22v16H12V32H4.414L32,4.414L59.586,32H50z
+"/>
+</g>
+</svg></a>
+</div>
+  </body>
+</html>

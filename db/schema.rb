@@ -16,9 +16,9 @@ ActiveRecord::Schema.define(version: 0) do
         t.text "surname"
         t.text "patrinymic"
         t.text "nikname"
-        t.INREGER "score"
-        t.INREGER "gamesPlayed"
-        t.INREGER "isteacher"
+        t.INTEGER "score"
+        t.INTEGER "gamesPlayed"
+        t.INTEGER "isteacher"
   end
 
   create_table "competitive", id: false, force: :cascade do |t|
@@ -32,5 +32,10 @@ ActiveRecord::Schema.define(version: 0) do
 
 # Could not dump table "user" because of following StandardError
 #   Unknown type 'INREGER' for column 'score'
+
+
+  # These are extensions that must be enabled in order to support this database
+ # enable_extension "plpgsql"
+
 
 end

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html >
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body >
+    <div id="body">
+      <%= javascript_include_tag "login" %>
+      <%= stylesheet_link_tag 'login', media: 'all' %>
+      </div>
+      <div class="container1">
+      	<header>
+      		<h1>
+      			<a href="#">
+
+      			</a>
+      		</h1>
+      	</header>
+      	<h1 class="text-center">Регистрация</h1>
+      	<form class="registration-form">
+      		<label class="col-one-half">
+      			<span class="label-text">Имя</span>
+      			<input type="text" name="firstName">
+      		</label>
+      		<label class="col-one-half">
+      			<span class="label-text">Фамилия</span>
+      			<input type="text" name="lastName">
+      		</label>
+      		<label>
+      			<span class="label-text">Email</span>
+      			<input type="text" name="email">
+      		</label>
+      		<label class="password">
+      			<span class="label-text">Пароль</span>
+      			<button class="toggle-visibility" title="toggle password visibility" tabindex="-1">
+      				<span class="glyphicon glyphicon-eye-close"></span>
+      			</button>
+      			<input type="password" name="password">
+      		</label>
+
+      		<div class="text-center">
+      			<button class="submit" name="register">Зарегистрироваться</button>
+      		</div>
+      	</form>
+      </div>
+  </body>
+</html>
