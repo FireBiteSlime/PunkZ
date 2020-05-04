@@ -12,5 +12,7 @@ Rails.application.routes.draw do
 
   get 'theoryload' => 'loading_theory#theoryload'
 
-  resources :main 
+  get 'sessions' => 'sessions#new'
+
+  resources :main
 end
