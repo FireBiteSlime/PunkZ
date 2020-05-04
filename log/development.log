@@ -9838,3 +9838,698 @@ Processing by UserController#useraccount as HTML
 Completed 200 OK in 7ms (Views: 4.6ms | ActiveRecord: 0.0ms | Allocations: 1192)
 
 
+Started GET "/" for ::1 at 2020-05-04 11:28:31 +0300
+  [1m[35m (1.9ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 2.6ms | Allocations: 475)
+Completed 200 OK in 239ms (Views: 226.4ms | ActiveRecord: 0.0ms | Allocations: 42322)
+
+
+Started GET "/useraccount" for ::1 at 2020-05-04 11:33:28 +0300
+Processing by UserController#useraccount as HTML
+  Rendering user/useraccount.html.erb within layouts/application
+  Rendered user/useraccount.html.erb within layouts/application (Duration: 13.9ms | Allocations: 3978)
+Completed 200 OK in 22ms (Views: 20.4ms | ActiveRecord: 0.0ms | Allocations: 8016)
+
+
+Started GET "/matchmakingtest" for ::1 at 2020-05-04 11:33:37 +0300
+Processing by MatchmakingtestController#test as HTML
+  Rendering matchmakingtest/test.html.erb within layouts/application
+  Rendered matchmakingtest/test.html.erb within layouts/application (Duration: 26.7ms | Allocations: 7269)
+Completed 200 OK in 42ms (Views: 39.4ms | ActiveRecord: 0.0ms | Allocations: 11162)
+
+
+Started GET "/" for ::1 at 2020-05-04 11:35:05 +0300
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 1.6ms | Allocations: 324)
+Completed 200 OK in 36ms (Views: 31.2ms | ActiveRecord: 0.0ms | Allocations: 4782)
+
+
+Started GET "/" for ::1 at 2020-05-04 11:37:09 +0300
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 1.1ms | Allocations: 325)
+Completed 200 OK in 32ms (Views: 30.2ms | ActiveRecord: 0.0ms | Allocations: 4779)
+
+
+Started GET "/useraccount_path" for ::1 at 2020-05-04 11:37:26 +0300
+  
+ActionController::RoutingError (No route matches [GET] "/useraccount_path"):
+  
+actionpack (6.0.2.2) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.0.1) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.2.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.2.2) lib/rails/rack/logger.rb:38:in `call_app'
+railties (6.0.2.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.2.2) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.2.2) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.2.2) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.2.2) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.2.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.2.2) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.2) lib/rack/method_override.rb:24:in `call'
+rack (2.2.2) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.2.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.2.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.2.2) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.2) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.2.2) lib/action_dispatch/middleware/host_authorization.rb:83:in `call'
+webpacker (f6c2b5044aa3) lib/webpacker/dev_server_proxy.rb:25:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.2.2) lib/rails/engine.rb:526:in `call'
+puma (4.3.3) lib/puma/configuration.rb:228:in `call'
+puma (4.3.3) lib/puma/server.rb:682:in `handle_request'
+puma (4.3.3) lib/puma/server.rb:472:in `process_client'
+puma (4.3.3) lib/puma/server.rb:328:in `block in run'
+puma (4.3.3) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/useraccount_path" for ::1 at 2020-05-04 11:47:22 +0300
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  
+ActionController::RoutingError (No route matches [GET] "/useraccount_path"):
+  
+actionpack (6.0.2.2) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.0.1) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.2.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.2.2) lib/rails/rack/logger.rb:38:in `call_app'
+railties (6.0.2.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.2.2) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.2.2) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.2.2) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.2.2) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.2.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.2.2) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.2) lib/rack/method_override.rb:24:in `call'
+rack (2.2.2) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.2.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.2.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.2.2) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.2) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.2.2) lib/action_dispatch/middleware/host_authorization.rb:83:in `call'
+webpacker (f6c2b5044aa3) lib/webpacker/dev_server_proxy.rb:25:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.2.2) lib/rails/engine.rb:526:in `call'
+puma (4.3.3) lib/puma/configuration.rb:228:in `call'
+puma (4.3.3) lib/puma/server.rb:682:in `handle_request'
+puma (4.3.3) lib/puma/server.rb:472:in `process_client'
+puma (4.3.3) lib/puma/server.rb:328:in `block in run'
+puma (4.3.3) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/useraccount_path" for ::1 at 2020-05-04 11:47:26 +0300
+  
+ActionController::RoutingError (No route matches [GET] "/useraccount_path"):
+  
+actionpack (6.0.2.2) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.0.1) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.2.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.2.2) lib/rails/rack/logger.rb:38:in `call_app'
+railties (6.0.2.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.2.2) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.2.2) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.2.2) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.2.2) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.2.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.2.2) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.2) lib/rack/method_override.rb:24:in `call'
+rack (2.2.2) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.2.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.2.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.2.2) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.2) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.2.2) lib/action_dispatch/middleware/host_authorization.rb:83:in `call'
+webpacker (f6c2b5044aa3) lib/webpacker/dev_server_proxy.rb:25:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.2.2) lib/rails/engine.rb:526:in `call'
+puma (4.3.3) lib/puma/configuration.rb:228:in `call'
+puma (4.3.3) lib/puma/server.rb:682:in `handle_request'
+puma (4.3.3) lib/puma/server.rb:472:in `process_client'
+puma (4.3.3) lib/puma/server.rb:328:in `block in run'
+puma (4.3.3) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/useraccount_path" for ::1 at 2020-05-04 11:47:35 +0300
+  
+ActionController::RoutingError (No route matches [GET] "/useraccount_path"):
+  
+actionpack (6.0.2.2) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.0.1) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.2.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.2.2) lib/rails/rack/logger.rb:38:in `call_app'
+railties (6.0.2.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.2.2) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.2.2) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.2.2) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.2.2) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.2.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.2.2) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.2) lib/rack/method_override.rb:24:in `call'
+rack (2.2.2) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.2.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.2.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.2.2) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.2) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.2.2) lib/action_dispatch/middleware/host_authorization.rb:83:in `call'
+webpacker (f6c2b5044aa3) lib/webpacker/dev_server_proxy.rb:25:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.2.2) lib/rails/engine.rb:526:in `call'
+puma (4.3.3) lib/puma/configuration.rb:228:in `call'
+puma (4.3.3) lib/puma/server.rb:682:in `handle_request'
+puma (4.3.3) lib/puma/server.rb:472:in `process_client'
+puma (4.3.3) lib/puma/server.rb:328:in `block in run'
+puma (4.3.3) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/useraccount" for ::1 at 2020-05-04 11:47:47 +0300
+Processing by UserController#useraccount as HTML
+  Rendering user/useraccount.html.erb within layouts/application
+  Rendered user/useraccount.html.erb within layouts/application (Duration: 16.8ms | Allocations: 2191)
+Completed 200 OK in 37ms (Views: 34.4ms | ActiveRecord: 0.0ms | Allocations: 6234)
+
+
+Started GET "/useraccount_path" for ::1 at 2020-05-04 11:47:59 +0300
+  
+ActionController::RoutingError (No route matches [GET] "/useraccount_path"):
+  
+actionpack (6.0.2.2) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.0.1) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.2.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.2.2) lib/rails/rack/logger.rb:38:in `call_app'
+railties (6.0.2.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.2.2) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.2.2) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.2.2) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.2.2) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.2.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.2.2) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.2) lib/rack/method_override.rb:24:in `call'
+rack (2.2.2) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.2.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.2.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.2.2) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.2) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.2.2) lib/action_dispatch/middleware/host_authorization.rb:83:in `call'
+webpacker (f6c2b5044aa3) lib/webpacker/dev_server_proxy.rb:25:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.2.2) lib/rails/engine.rb:526:in `call'
+puma (4.3.3) lib/puma/configuration.rb:228:in `call'
+puma (4.3.3) lib/puma/server.rb:682:in `handle_request'
+puma (4.3.3) lib/puma/server.rb:472:in `process_client'
+puma (4.3.3) lib/puma/server.rb:328:in `block in run'
+puma (4.3.3) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/useraccount_path" for ::1 at 2020-05-04 11:48:50 +0300
+  
+ActionController::RoutingError (No route matches [GET] "/useraccount_path"):
+  
+actionpack (6.0.2.2) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.0.1) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.2.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.2.2) lib/rails/rack/logger.rb:38:in `call_app'
+railties (6.0.2.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.2.2) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.2.2) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.2.2) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.2.2) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.2.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.2.2) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.2) lib/rack/method_override.rb:24:in `call'
+rack (2.2.2) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.2.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.2.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.2.2) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.2) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.2.2) lib/action_dispatch/middleware/host_authorization.rb:83:in `call'
+webpacker (f6c2b5044aa3) lib/webpacker/dev_server_proxy.rb:25:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.2.2) lib/rails/engine.rb:526:in `call'
+puma (4.3.3) lib/puma/configuration.rb:228:in `call'
+puma (4.3.3) lib/puma/server.rb:682:in `handle_request'
+puma (4.3.3) lib/puma/server.rb:472:in `process_client'
+puma (4.3.3) lib/puma/server.rb:328:in `block in run'
+puma (4.3.3) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/" for ::1 at 2020-05-04 11:48:55 +0300
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 2.9ms | Allocations: 325)
+Completed 200 OK in 20ms (Views: 18.8ms | ActiveRecord: 0.0ms | Allocations: 4783)
+
+
+Started GET "/useraccount" for ::1 at 2020-05-04 11:48:58 +0300
+Processing by UserController#useraccount as HTML
+  Rendering user/useraccount.html.erb within layouts/application
+  Rendered user/useraccount.html.erb within layouts/application (Duration: 7.4ms | Allocations: 2167)
+Completed 200 OK in 28ms (Views: 24.5ms | ActiveRecord: 0.0ms | Allocations: 5834)
+
+
+Started GET "/" for ::1 at 2020-05-04 11:49:12 +0300
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 1.2ms | Allocations: 325)
+Completed 200 OK in 23ms (Views: 21.0ms | ActiveRecord: 0.0ms | Allocations: 4779)
+
+
+Started GET "/useraccount" for ::1 at 2020-05-04 11:49:13 +0300
+Processing by UserController#useraccount as HTML
+  Rendering user/useraccount.html.erb within layouts/application
+  Rendered user/useraccount.html.erb within layouts/application (Duration: 5.1ms | Allocations: 2167)
+Completed 200 OK in 21ms (Views: 18.2ms | ActiveRecord: 0.0ms | Allocations: 5824)
+
+
+Started GET "/" for ::1 at 2020-05-04 11:50:40 +0300
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 2.7ms | Allocations: 332)
+Completed 200 OK in 22ms (Views: 20.2ms | ActiveRecord: 0.0ms | Allocations: 4794)
+
+
+Started GET "/" for ::1 at 2020-05-04 11:53:32 +0300
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 3.3ms | Allocations: 327)
+Completed 200 OK in 16ms (Views: 14.6ms | ActiveRecord: 0.0ms | Allocations: 4785)
+
+
+Started GET "/matchmakingtest" for ::1 at 2020-05-04 11:53:34 +0300
+Processing by MatchmakingtestController#test as HTML
+  Rendering matchmakingtest/test.html.erb within layouts/application
+  Rendered matchmakingtest/test.html.erb within layouts/application (Duration: 9.3ms | Allocations: 2237)
+Completed 200 OK in 24ms (Views: 22.0ms | ActiveRecord: 0.0ms | Allocations: 6126)
+
+
+Started GET "/" for ::1 at 2020-05-04 11:54:33 +0300
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 1.8ms | Allocations: 327)
+Completed 200 OK in 21ms (Views: 19.3ms | ActiveRecord: 0.0ms | Allocations: 4783)
+
+
+Started GET "/singlemode" for ::1 at 2020-05-04 11:54:35 +0300
+Processing by SinglemodeController#single as HTML
+  Rendering singlemode/single.html.erb within layouts/application
+  Rendered singlemode/single.html.erb within layouts/application (Duration: 0.8ms | Allocations: 96)
+Completed 200 OK in 27ms (Views: 24.0ms | ActiveRecord: 0.0ms | Allocations: 4188)
+
+
+Started GET "/useraccount" for ::1 at 2020-05-04 11:54:43 +0300
+Processing by UserController#useraccount as HTML
+  Rendering user/useraccount.html.erb within layouts/application
+  Rendered user/useraccount.html.erb within layouts/application (Duration: 10.0ms | Allocations: 2167)
+Completed 200 OK in 20ms (Views: 16.4ms | ActiveRecord: 0.0ms | Allocations: 5827)
+
+
+Started GET "/" for ::1 at 2020-05-04 11:55:33 +0300
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 1.6ms | Allocations: 326)
+Completed 200 OK in 22ms (Views: 20.3ms | ActiveRecord: 0.0ms | Allocations: 4785)
+
+
+Started GET "/matchmakingtest" for ::1 at 2020-05-04 11:55:34 +0300
+Processing by MatchmakingtestController#test as HTML
+  Rendering matchmakingtest/test.html.erb within layouts/application
+  Rendered matchmakingtest/test.html.erb within layouts/application (Duration: 8.3ms | Allocations: 2237)
+Completed 200 OK in 23ms (Views: 20.5ms | ActiveRecord: 0.0ms | Allocations: 6126)
+
+
+Started GET "/main" for ::1 at 2020-05-04 11:55:36 +0300
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 87)
+Completed 200 OK in 42ms (Views: 41.0ms | ActiveRecord: 0.0ms | Allocations: 3608)
+
+
+Started GET "/singlemode" for ::1 at 2020-05-04 11:55:41 +0300
+Processing by SinglemodeController#single as HTML
+  Rendering singlemode/single.html.erb within layouts/application
+  Rendered singlemode/single.html.erb within layouts/application (Duration: 0.8ms | Allocations: 98)
+Completed 200 OK in 14ms (Views: 12.2ms | ActiveRecord: 0.0ms | Allocations: 4187)
+
+
+Started GET "/useraccount" for ::1 at 2020-05-04 11:55:47 +0300
+Processing by UserController#useraccount as HTML
+  Rendering user/useraccount.html.erb within layouts/application
+  Rendered user/useraccount.html.erb within layouts/application (Duration: 4.9ms | Allocations: 2167)
+Completed 200 OK in 17ms (Views: 14.6ms | ActiveRecord: 0.0ms | Allocations: 5832)
+
+
+Started GET "/useraccount" for ::1 at 2020-05-04 11:56:12 +0300
+Processing by UserController#useraccount as HTML
+  Rendering user/useraccount.html.erb within layouts/application
+  Rendered user/useraccount.html.erb within layouts/application (Duration: 8.8ms | Allocations: 2168)
+Completed 200 OK in 32ms (Views: 28.7ms | ActiveRecord: 0.0ms | Allocations: 6194)
+
+
+Started GET "/main" for ::1 at 2020-05-04 11:56:14 +0300
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 1.6ms | Allocations: 326)
+Completed 200 OK in 21ms (Views: 15.9ms | ActiveRecord: 0.0ms | Allocations: 4417)
+
+
+Started GET "/useraccount" for ::1 at 2020-05-04 11:56:17 +0300
+Processing by UserController#useraccount as HTML
+  Rendering user/useraccount.html.erb within layouts/application
+  Rendered user/useraccount.html.erb within layouts/application (Duration: 8.2ms | Allocations: 1994)
+Completed 200 OK in 20ms (Views: 19.0ms | ActiveRecord: 0.0ms | Allocations: 5077)
+
+
+Started GET "/main" for ::1 at 2020-05-04 11:56:18 +0300
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 1.3ms | Allocations: 80)
+Completed 200 OK in 21ms (Views: 18.0ms | ActiveRecord: 0.0ms | Allocations: 3588)
+
+
+Started GET "/main" for ::1 at 2020-05-04 12:14:27 +0300
+  [1m[35m (2.6ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 4.3ms | Allocations: 479)
+Completed 200 OK in 204ms (Views: 190.6ms | ActiveRecord: 0.0ms | Allocations: 29740)
+
+
+Started GET "/theoryindex" for ::1 at 2020-05-04 12:14:30 +0300
+  
+ActionController::RoutingError (No route matches [GET] "/theoryindex"):
+  
+actionpack (6.0.2.2) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.0.1) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.2.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.2.2) lib/rails/rack/logger.rb:38:in `call_app'
+railties (6.0.2.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.2.2) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.2.2) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.2.2) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.2.2) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.2.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.2.2) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.2) lib/rack/method_override.rb:24:in `call'
+rack (2.2.2) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.2.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.2.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.2.2) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.2) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.2.2) lib/action_dispatch/middleware/host_authorization.rb:83:in `call'
+webpacker (f6c2b5044aa3) lib/webpacker/dev_server_proxy.rb:25:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.2.2) lib/rails/engine.rb:526:in `call'
+puma (4.3.3) lib/puma/configuration.rb:228:in `call'
+puma (4.3.3) lib/puma/server.rb:682:in `handle_request'
+puma (4.3.3) lib/puma/server.rb:472:in `process_client'
+puma (4.3.3) lib/puma/server.rb:328:in `block in run'
+puma (4.3.3) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/theoryload" for ::1 at 2020-05-04 12:14:36 +0300
+Processing by LoadingTheoryController#theoryload as HTML
+  Rendering loading_theory/theoryload.html.erb within layouts/application
+  Rendered loading_theory/theoryload.html.erb within layouts/application (Duration: 0.5ms | Allocations: 74)
+Completed 200 OK in 35ms (Views: 32.3ms | ActiveRecord: 0.0ms | Allocations: 4218)
+
+
+Started GET "/theoryindex" for ::1 at 2020-05-04 12:14:42 +0300
+  
+ActionController::RoutingError (No route matches [GET] "/theoryindex"):
+  
+actionpack (6.0.2.2) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.0.1) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.2.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.2.2) lib/rails/rack/logger.rb:38:in `call_app'
+railties (6.0.2.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.2.2) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.2.2) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.2.2) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.2.2) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.2.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.2.2) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.2) lib/rack/method_override.rb:24:in `call'
+rack (2.2.2) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.2.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.2.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.2.2) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.2) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.2.2) lib/action_dispatch/middleware/host_authorization.rb:83:in `call'
+webpacker (f6c2b5044aa3) lib/webpacker/dev_server_proxy.rb:25:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.2.2) lib/rails/engine.rb:526:in `call'
+puma (4.3.3) lib/puma/configuration.rb:228:in `call'
+puma (4.3.3) lib/puma/server.rb:682:in `handle_request'
+puma (4.3.3) lib/puma/server.rb:472:in `process_client'
+puma (4.3.3) lib/puma/server.rb:328:in `block in run'
+puma (4.3.3) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/theoryindex" for ::1 at 2020-05-04 12:14:49 +0300
+  
+ActionController::RoutingError (No route matches [GET] "/theoryindex"):
+  
+actionpack (6.0.2.2) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.0.1) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.2.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.2.2) lib/rails/rack/logger.rb:38:in `call_app'
+railties (6.0.2.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.2.2) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.2.2) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.2.2) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.2.2) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.2.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.2.2) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.2) lib/rack/method_override.rb:24:in `call'
+rack (2.2.2) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.2.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.2.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.2.2) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.2) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.2.2) lib/action_dispatch/middleware/host_authorization.rb:83:in `call'
+webpacker (f6c2b5044aa3) lib/webpacker/dev_server_proxy.rb:25:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.2.2) lib/rails/engine.rb:526:in `call'
+puma (4.3.3) lib/puma/configuration.rb:228:in `call'
+puma (4.3.3) lib/puma/server.rb:682:in `handle_request'
+puma (4.3.3) lib/puma/server.rb:472:in `process_client'
+puma (4.3.3) lib/puma/server.rb:328:in `block in run'
+puma (4.3.3) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/main" for ::1 at 2020-05-04 12:16:34 +0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 1.5ms | Allocations: 88)
+Completed 200 OK in 21ms (Views: 17.9ms | ActiveRecord: 0.0ms | Allocations: 3785)
+
+
+Started GET "/theoryindex" for ::1 at 2020-05-04 12:16:38 +0300
+Processing by TheoryController#theoryindex as HTML
+  Rendering theory/theoryindex.html.erb within layouts/application
+  Rendered theory/theoryindex.html.erb within layouts/application (Duration: 1.4ms | Allocations: 101)
+Completed 200 OK in 19ms (Views: 17.2ms | ActiveRecord: 0.0ms | Allocations: 4216)
+
+
+Started GET "/main" for ::1 at 2020-05-04 12:17:17 +0300
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.5ms | Allocations: 87)
+Completed 200 OK in 23ms (Views: 18.4ms | ActiveRecord: 0.0ms | Allocations: 3623)
+
+
+Started GET "/main" for ::1 at 2020-05-04 12:18:07 +0300
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 1.7ms | Allocations: 327)
+Completed 200 OK in 15ms (Views: 11.1ms | ActiveRecord: 0.0ms | Allocations: 4806)
+
+
+Started GET "/theoryindex" for ::1 at 2020-05-04 12:18:10 +0300
+Processing by TheoryController#theoryindex as HTML
+  Rendering theory/theoryindex.html.erb within layouts/application
+  Rendered theory/theoryindex.html.erb within layouts/application (Duration: 1.4ms | Allocations: 93)
+Completed 200 OK in 27ms (Views: 22.5ms | ActiveRecord: 0.0ms | Allocations: 4202)
+
+
+Started GET "/theoryindex" for ::1 at 2020-05-04 12:18:15 +0300
+Processing by TheoryController#theoryindex as HTML
+  Rendering theory/theoryindex.html.erb within layouts/application
+  Rendered theory/theoryindex.html.erb within layouts/application (Duration: 0.1ms | Allocations: 5)
+Completed 200 OK in 16ms (Views: 14.1ms | ActiveRecord: 0.0ms | Allocations: 3537)
+
+
+Started GET "/matchmakingtest" for ::1 at 2020-05-04 12:18:19 +0300
+Processing by MatchmakingtestController#test as HTML
+  Rendering matchmakingtest/test.html.erb within layouts/application
+  Rendered matchmakingtest/test.html.erb within layouts/application (Duration: 17.3ms | Allocations: 2519)
+Completed 200 OK in 30ms (Views: 28.0ms | ActiveRecord: 0.0ms | Allocations: 6432)
+
+
+Started GET "/main" for ::1 at 2020-05-04 12:18:22 +0300
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.5ms | Allocations: 87)
+Completed 200 OK in 17ms (Views: 15.1ms | ActiveRecord: 0.0ms | Allocations: 3618)
+
+
+Started GET "/useraccount" for ::1 at 2020-05-04 12:18:24 +0300
+Processing by UserController#useraccount as HTML
+  Rendering user/useraccount.html.erb within layouts/application
+  Rendered user/useraccount.html.erb within layouts/application (Duration: 9.5ms | Allocations: 2318)
+Completed 200 OK in 19ms (Views: 16.0ms | ActiveRecord: 0.0ms | Allocations: 6006)
+
+
+Started GET "/main" for ::1 at 2020-05-04 12:18:30 +0300
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 87)
+Completed 200 OK in 19ms (Views: 16.9ms | ActiveRecord: 0.0ms | Allocations: 3622)
+
+
+Started GET "/theoryindex" for ::1 at 2020-05-04 12:18:32 +0300
+Processing by TheoryController#theoryindex as HTML
+  Rendering theory/theoryindex.html.erb within layouts/application
+  Rendered theory/theoryindex.html.erb within layouts/application (Duration: 0.3ms | Allocations: 4)
+Completed 200 OK in 20ms (Views: 18.6ms | ActiveRecord: 0.0ms | Allocations: 3535)
+
+
+Started GET "/theoryload" for ::1 at 2020-05-04 12:18:36 +0300
+Processing by LoadingTheoryController#theoryload as HTML
+  Rendering loading_theory/theoryload.html.erb within layouts/application
+  Rendered loading_theory/theoryload.html.erb within layouts/application (Duration: 1.5ms | Allocations: 71)
+Completed 200 OK in 21ms (Views: 18.3ms | ActiveRecord: 0.0ms | Allocations: 4185)
+
+
+Started GET "/singlemode" for ::1 at 2020-05-04 12:18:40 +0300
+Processing by SinglemodeController#single as HTML
+  Rendering singlemode/single.html.erb within layouts/application
+  Rendered singlemode/single.html.erb within layouts/application (Duration: 0.5ms | Allocations: 96)
+Completed 200 OK in 12ms (Views: 9.7ms | ActiveRecord: 0.0ms | Allocations: 4211)
+
+
+Started GET "/theoryload" for ::1 at 2020-05-04 12:19:37 +0300
+Processing by LoadingTheoryController#theoryload as HTML
+  Rendering loading_theory/theoryload.html.erb within layouts/application
+  Rendered loading_theory/theoryload.html.erb within layouts/application (Duration: 0.5ms | Allocations: 78)
+Completed 200 OK in 25ms (Views: 22.0ms | ActiveRecord: 0.0ms | Allocations: 4552)
+
+
+Started GET "/theoryload" for ::1 at 2020-05-04 12:19:39 +0300
+Processing by LoadingTheoryController#theoryload as HTML
+  Rendering loading_theory/theoryload.html.erb within layouts/application
+  Rendered loading_theory/theoryload.html.erb within layouts/application (Duration: 0.1ms | Allocations: 4)
+Completed 200 OK in 15ms (Views: 14.0ms | ActiveRecord: 0.0ms | Allocations: 3532)
+
+
+Started GET "/main" for ::1 at 2020-05-04 12:19:41 +0300
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 3.1ms | Allocations: 326)
+Completed 200 OK in 16ms (Views: 14.2ms | ActiveRecord: 0.0ms | Allocations: 4433)
+
+
+Started GET "/theoryload" for ::1 at 2020-05-04 12:19:43 +0300
+Processing by LoadingTheoryController#theoryload as HTML
+  Rendering loading_theory/theoryload.html.erb within layouts/application
+  Rendered loading_theory/theoryload.html.erb within layouts/application (Duration: 0.2ms | Allocations: 4)
+Completed 200 OK in 20ms (Views: 18.0ms | ActiveRecord: 0.0ms | Allocations: 3534)
+
+
+Started GET "/theoryload" for ::1 at 2020-05-04 12:22:55 +0300
+Processing by LoadingTheoryController#theoryload as HTML
+  Rendering loading_theory/theoryload.html.erb within layouts/application
+  Rendered loading_theory/theoryload.html.erb within layouts/application (Duration: 0.9ms | Allocations: 82)
+Completed 200 OK in 22ms (Views: 19.9ms | ActiveRecord: 0.0ms | Allocations: 4562)
+
+
+Started GET "/theoryload" for ::1 at 2020-05-04 12:22:57 +0300
+Processing by LoadingTheoryController#theoryload as HTML
+  Rendering loading_theory/theoryload.html.erb within layouts/application
+  Rendered loading_theory/theoryload.html.erb within layouts/application (Duration: 0.1ms | Allocations: 4)
+Completed 200 OK in 12ms (Views: 10.7ms | ActiveRecord: 0.0ms | Allocations: 3534)
+
+
+Started GET "/theoryload" for ::1 at 2020-05-04 12:22:59 +0300
+Processing by LoadingTheoryController#theoryload as HTML
+  Rendering loading_theory/theoryload.html.erb within layouts/application
+  Rendered loading_theory/theoryload.html.erb within layouts/application (Duration: 0.3ms | Allocations: 4)
+Completed 200 OK in 19ms (Views: 17.6ms | ActiveRecord: 0.0ms | Allocations: 3533)
+
+
+Started GET "/main" for ::1 at 2020-05-04 12:23:02 +0300
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 5.0ms | Allocations: 326)
+Completed 200 OK in 28ms (Views: 25.5ms | ActiveRecord: 0.0ms | Allocations: 4432)
+
+
+Started GET "/theoryload" for ::1 at 2020-05-04 12:23:05 +0300
+Processing by LoadingTheoryController#theoryload as HTML
+  Rendering loading_theory/theoryload.html.erb within layouts/application
+  Rendered loading_theory/theoryload.html.erb within layouts/application (Duration: 0.1ms | Allocations: 4)
+Completed 200 OK in 15ms (Views: 13.6ms | ActiveRecord: 0.0ms | Allocations: 3531)
+
+
+Started GET "/theoryload" for ::1 at 2020-05-04 12:23:07 +0300
+Processing by LoadingTheoryController#theoryload as HTML
+  Rendering loading_theory/theoryload.html.erb within layouts/application
+  Rendered loading_theory/theoryload.html.erb within layouts/application (Duration: 0.1ms | Allocations: 4)
+Completed 200 OK in 9ms (Views: 8.1ms | ActiveRecord: 0.0ms | Allocations: 3534)
+
+
+Started GET "/theoryload" for ::1 at 2020-05-04 12:23:08 +0300
+Processing by LoadingTheoryController#theoryload as HTML
+  Rendering loading_theory/theoryload.html.erb within layouts/application
+  Rendered loading_theory/theoryload.html.erb within layouts/application (Duration: 0.1ms | Allocations: 4)
+Completed 200 OK in 18ms (Views: 17.2ms | ActiveRecord: 0.0ms | Allocations: 3529)
+
+
+Started GET "/theoryload" for ::1 at 2020-05-04 12:23:23 +0300
+Processing by LoadingTheoryController#theoryload as HTML
+  Rendering loading_theory/theoryload.html.erb within layouts/application
+  Rendered loading_theory/theoryload.html.erb within layouts/application (Duration: 0.5ms | Allocations: 78)
+Completed 200 OK in 23ms (Views: 20.9ms | ActiveRecord: 0.0ms | Allocations: 4553)
+
+
+Started GET "/theoryload" for ::1 at 2020-05-04 12:23:24 +0300
+Processing by LoadingTheoryController#theoryload as HTML
+  Rendering loading_theory/theoryload.html.erb within layouts/application
+  Rendered loading_theory/theoryload.html.erb within layouts/application (Duration: 0.1ms | Allocations: 4)
+Completed 200 OK in 10ms (Views: 8.1ms | ActiveRecord: 0.0ms | Allocations: 3534)
+
+
+Started GET "/theoryload" for ::1 at 2020-05-04 12:23:25 +0300
+Processing by LoadingTheoryController#theoryload as HTML
+  Rendering loading_theory/theoryload.html.erb within layouts/application
+  Rendered loading_theory/theoryload.html.erb within layouts/application (Duration: 0.1ms | Allocations: 4)
+Completed 200 OK in 16ms (Views: 14.3ms | ActiveRecord: 0.0ms | Allocations: 3530)
+
+
+Started GET "/theoryload" for ::1 at 2020-05-04 12:23:26 +0300
+Processing by LoadingTheoryController#theoryload as HTML
+  Rendering loading_theory/theoryload.html.erb within layouts/application
+  Rendered loading_theory/theoryload.html.erb within layouts/application (Duration: 0.1ms | Allocations: 4)
+Completed 200 OK in 18ms (Views: 16.3ms | ActiveRecord: 0.0ms | Allocations: 3532)
+
+

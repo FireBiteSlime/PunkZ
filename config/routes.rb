@@ -8,5 +8,9 @@ Rails.application.routes.draw do
 
   get 'singlemode' => 'singlemode#single'
 
+  get 'theoryindex' => 'theory#theoryindex'
+
+  get 'theoryload' => 'loading_theory#theoryload'
+
   resources :main 
 end
