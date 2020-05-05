@@ -24,6 +24,7 @@ gem 'jbuilder', '~> 2.7'
 
 # Auth
 gem 'vkontakte_api', '~> 1.4'
+gem 'devise'
 
 # Use Active Storage variant
 # gem 'image_processing', '~> 1.2'

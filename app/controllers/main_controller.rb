@@ -8,7 +8,7 @@ class MainController < ApplicationController
 
     end
 
-    def new
+    def login
         # генерируем случайный state
         srand
         session[:state] ||= Digest::MD5.hexdigest(rand.to_s)
@@ -38,6 +38,4 @@ class MainController < ApplicationController
 
       redirect_to root_url
     end
-
-
 end
